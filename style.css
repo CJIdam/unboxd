@@ -1,0 +1,217 @@
+
+body {
+    background-color: black;
+    font-family: Averta-CY, Lato, sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width: 130px;
+    height: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 0px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 30px;
+    font-size: 15px;
+}
+.log {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 17px 1.5rem;
+    margin: 0.75rem 0px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+h1 {
+    font-weight: 500;
+    font-size: 70px;
+}
+span {
+    color: rgb(48, 147, 91);
+}
+.left-section {
+    display: flex;
+    margin: 220px 150px 50px;
+    justify-content: space-between;
+}
+.left-section p {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    opacity: 0.75;
+    margin-top: 0px;
+}
+.left-section img {
+    width: 500px;
+    height: 850px;
+    margin-top: -200px;
+}
+.register {
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(48, 147, 91);
+    color: rgb(255, 255, 255);
+    padding: 1.2rem 1rem;
+    margin: 1.5rem 0px;
+    width: 60%;
+    font-weight: 300;
+    font-size: calc(15px);
+    height: 24px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+.container {
+
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+h2 {
+   font-family: Helvetica;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    margin-top: 3rem;
+}
+
+.cMQemQ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+
+}
+.cMQemQ div .icon-wrapper {
+    width: 50px;
+    height: 50px;
+    background: rgb(66, 65, 65);
+    border-radius: 17px;
+    display: flex;
+    -webkit-box-align: center;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+.cMQemQ div .icon-wrapper span {
+    text-align: center;
+    margin: auto;
+}
+.cMQemQ div h3 {
+    font-family: Helvetica;
+    font-size: 35px;
+}
+.cMQemQ div p {
+    margin-top: 1.6rem;
+    max-width: 520px;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.gTFDfH {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 2rem;
+    position: relative;
+}
+.gTFDfH .testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 20px;
+}
+ .testimonials img {
+    margin: 0px auto;
+}
+.dWmIxH {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gLewBs {
+    position: relative;
+    width: calc(100% - 30px);
+    min-height: 300px;
+    max-height: 600px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px 15px;
+    border-radius: 15px;
+}
+.gLewBs .footerOverlay {
+    position: absolute;
+    inset: 0px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 520px;
+    margin: auto;
+}
+.gLewBs .footer-overlay-text {
+    margin: 0px 5%;
+}
+.ctjCTK {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(48, 147, 91);
+    color: rgb(255, 255, 255);
+    padding: 1.2rem 1rem;
+    margin: 1.5rem 0px;
+    width: 100%;
+    font-weight: 300;
+    font-size: calc(15px);
+    height: 40px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+footer {
+    background: rgb(22, 24, 29);
+    height: 60px;
+    padding: 2rem 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: light;
+}
+.links {
+    display: flex;
+}
+.links a {
+    margin: 0px 1rem;
+}
+.icon img {
+    width: 30px;
+    height: 20px;
+}
+.second {
+    width: 45px;
+    height: 20px;
+}
